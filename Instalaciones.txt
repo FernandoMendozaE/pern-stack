@@ -1,0 +1,13 @@
+------------ Instalaciones Backend -------------
+// CORS módulo que permite comunicar dos servicios en dos dominios distintos (ejemplo un app backend por 4000 y app front port 4300)
+npm i cors
+
+// PG módulo que permite conectar node a la BD, el cual nos permitira ejecutar consultas 
+npm i pg
+
+// DOTENV módulo para variables de entorno
+npm i dotenv
+
+------------ Instalaciones Front -------------
+// ROUTER módulo para crear rutas en react
+npm i react-router-dom
