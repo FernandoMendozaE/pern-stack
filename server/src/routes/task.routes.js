@@ -4,7 +4,7 @@ const {
   getTask,
   createTask,
   deleteTask,
-  updateTask,
+  updateTask
 } = require('../controllers/tasks.controller') // ? Importamos el controlador de tareas
 
 const router = Router() // ? Instanciamos o Router

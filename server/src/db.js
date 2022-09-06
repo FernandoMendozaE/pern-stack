@@ -7,7 +7,7 @@ const pool = new Pool({
   password: db.password,
   host: db.host,
   port: db.port,
-  database: db.database,
+  database: db.database
 })
 
 module.exports = pool // ? Exportamos la conexión a la base de datos
